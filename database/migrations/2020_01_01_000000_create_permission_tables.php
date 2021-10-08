@@ -39,7 +39,7 @@ class CreatePermissionTables extends Migration
             $table->unsignedInteger('weight')->default(0);
             $table->timestamps();
 
-            $table->primary(['route', 'method']);
+            $table->primary(['id','route', 'method']);
         });
 
         Schema::create($tableNames['menus'], function (Blueprint $table) {
