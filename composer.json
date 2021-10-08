@@ -1,5 +1,5 @@
 {
-    "name": "mingzaily/lumen-permission",
+    "name": "wenson/lumen-permission",
     "description": "Permission handling for lumen 6.x and up",
     "keywords": [
         "mingzaily",
@@ -10,13 +10,12 @@
         "rbac",
         "security"
     ],
-    "homepage": "https://github.com/mingzaily/lumen-permission",
+    "homepage": "https://github.com/wenson/lumen-permission/",
     "license": "MIT",
     "authors": [
         {
-            "name": "mingzaily",
-            "email": "mingzaily@163.com",
-            "homepage": "https://www.mingzaily.com",
+            "name": "w3ns0n",
+            "email": "w3ns0n@gmail.com",
             "role": "Developer"
         }
     ],
