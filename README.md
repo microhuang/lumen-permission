@@ -15,14 +15,14 @@
 第一步，`composer`安装
 
 ```shell script
-composer require mingzaily/lumen-permission
+composer require w3ns0n/lumen-permission
 ```
 
 安装成功后，复制以下文件
 
 ```shell script
-cp vendor/mingzaily/lumen-permission/config/permission.php config/permission.php
-cp vendor/mingzaily/lumen-permission/database/migrations/create_permission_tables.php.stub database/migrations/2020_0 1_01_000000_create_permission_tables.php
+cp vendor/w3ns0n/lumen-permission/config/permission.php config/permission.php
+cp vendor/w3ns0n/lumen-permission/database/migrations/create_permission_tables.php.stub database/migrations/2020_0 1_01_000000_create_permission_tables.php
 ```
 
 同时也需要把`lumen-framework`核心框架的`auth.php`配置文件复制出来
